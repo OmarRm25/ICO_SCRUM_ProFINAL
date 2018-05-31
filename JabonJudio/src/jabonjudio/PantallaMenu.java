@@ -16,8 +16,6 @@ public class PantallaMenu extends javax.swing.JFrame {
      */
     public PantallaMenu() {
         initComponents();
-        
-        this.setTitle("Jabon Judio");
     }
 
     /**
@@ -29,21 +27,81 @@ public class PantallaMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        bTeoria = new javax.swing.JButton();
+        bScrum = new javax.swing.JButton();
+        bEquipo = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Jabón Judio");
+
+        bTeoria.setText("Teoria");
+        bTeoria.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bTeoriaMouseClicked(evt);
+            }
+        });
+
+        bScrum.setText("Scrum");
+        bScrum.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bScrumMouseClicked(evt);
+            }
+        });
+
+        bEquipo.setText("Equipo");
+        bEquipo.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bEquipoMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bTeoria)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 97, Short.MAX_VALUE)
+                .addComponent(bScrum)
+                .addGap(94, 94, 94)
+                .addComponent(bEquipo)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bTeoria)
+                    .addComponent(bScrum)
+                    .addComponent(bEquipo))
+                .addContainerGap(266, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bTeoriaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bTeoriaMouseClicked
+        PantallaTeoria pt = new PantallaTeoria();
+        pt.setVisible(true);
+        this.setVisible(false);
+        this.dispose();
+    }//GEN-LAST:event_bTeoriaMouseClicked
+
+    private void bScrumMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bScrumMouseClicked
+        PantallaScrum ps = new PantallaScrum();
+        ps.setVisible(true);
+        this.setVisible(false);
+        this.dispose();
+    }//GEN-LAST:event_bScrumMouseClicked
+
+    private void bEquipoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bEquipoMouseClicked
+        PantallaEquipo pe = new PantallaEquipo();
+        pe.setVisible(true);
+        this.setVisible(false);
+        this.dispose();
+    }//GEN-LAST:event_bEquipoMouseClicked
 
     /**
      * @param args the command line arguments
@@ -81,5 +139,8 @@ public class PantallaMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton bEquipo;
+    private javax.swing.JButton bScrum;
+    private javax.swing.JButton bTeoria;
     // End of variables declaration//GEN-END:variables
 }
