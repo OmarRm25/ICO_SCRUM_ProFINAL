@@ -33,6 +33,11 @@ public class PantallaTeoria extends javax.swing.JFrame {
         setTitle("Teoria Básica de Ingenieria de Software");
 
         bMenu.setText("Inicio");
+        bMenu.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bMenuMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -53,6 +58,13 @@ public class PantallaTeoria extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bMenuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bMenuMouseClicked
+        PantallaMenu pm = new PantallaMenu();
+        pm.setVisible(true);
+        this.setVisible(false);
+        this.dispose();
+    }//GEN-LAST:event_bMenuMouseClicked
 
     /**
      * @param args the command line arguments
