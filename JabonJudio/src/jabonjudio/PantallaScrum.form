@@ -26,8 +26,14 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="bMenu" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="333" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="bMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="323" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -36,7 +42,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="bMenu" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="266" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="249" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -50,5 +58,16 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bMenuMouseClicked"/>
       </Events>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xbf;QU&#xc9; ES SCRUM?&#xa;          *Metodolog&#xed;a &#xe1;gil*&#xa;Frente a los pasos del tradicional m&#xe9;todo en cascada, el desarrollo &#xe1;gil de software se basa en seis pasos comunes dentro del ciclo de vida del software: planificaci&#xf3;n, an&#xe1;lisis de requisitos, dise&#xf1;o, codificaci&#xf3;n, test y documentaci&#xf3;n. En cada interacci&#xf3;n, el equipo de desarrollo no entrega todo el programa, sino que se van a&#xf1;adiendo peque&#xf1;os elementos totalmente probados, sin errores, con el fin de que la soluci&#xf3;n final est&#xe9; completamente operativa desde el minuto uno. En los m&#xe9;todos de desarrollo &#xe1;gil de software, la comunicaci&#xf3;n entre todos los miembros del equipo es clave, ya que se busca eliminar las trabas habituales de reuniones, validaciones y revisiones formales por encuentros m&#xe1;s informales y en fases tempranas e intermedias del proceso, no s&#xf3;lo en la &#xfa;ltima etapa del trabajo.&#xa;&#xa;Manifiesto por el desarrollo &#xe1;gil&#xa;Estamos buscando formas mejores de desarrollar software tanto por nuestra propia experiencia como ayudando a terceros. A trav&#xe9;s de este trabajo aprendimos a valorar:&#xa;&#xa;&#x2022; Los individuos e interacciones, por encima de los procesos y las herramientas.&#xa;&#x2022; Software en funcionamiento, frente a la documentaci&#xf3;n exhaustiva.&#xa;&#x2022; La colaboraci&#xf3;n con el cliente sobre la negociaci&#xf3;n contractual.&#xa;&#x2022; Respuesta al cambio, mejor que el seguimiento de un plan.&#xa;Esto es, aunque valoremos los de la derecha, valoramos m&#xe1;s a los de la izquierda.&#xa;&#xa;*Scrum*&#xa;Es una metodolog&#xed;a de desarrollo &#xe1;gil, centrado en el desarrollo iterativo e incremental, en periodos cortos del tiempo y en colaboraci&#xf3;n con el cliente.&#xa;&#xa;-Roles &#xa;-Product owner&#xa;-Scrum master&#xa;-Scrum team&#xa;&#xa;PRODUCT OWNER&#xa;&#x2022;VISI&#xd3;N.-ESTABLECE EL OBJETIVO A TRAV&#xc9;S DE UN DESEO A CUMPLIR.&#xa;&#x2022;REPRESENTA A LOS PATROCINADORES (STAKEHOLDERS).&#xa;&#x2022;DESCUBRE Y APRUEBA EL PBI Y CONOCE EL VALOR DE NEGOCIO DE CADA ITEM.&#xa;&#x2022;TOMA EN CUENTA EL RETORNO DE INVERSI&#xd3;N.&#xa;&#x2022;TRIUNFA O FALLA R&#xc1;PIDO.&#xa;&#xa;SCRUM MASTER&#xa;&#x2022;COACH (FACILITADOR)&#xa;&#x2022;ESTABLECE LOS CALENDARIOS Y AGENDAS.&#xa;&#x2022;GU&#xcd;A AL EQUIPO A LA IDENTIFICACI&#xd3;N DE ENTREGABLES.&#xa;&#x2022;FACILITA LA COMUNICACI&#xd3;N CON EL PRODUCTOWNER.&#xa;&#x2022;RESPONSABLE DE CORREGIR PROBLEMAS O IMPEDIMENTOS.&#xa;&#xa;SCRUM TEAM (O S&#xd3;LO TEAM)&#xa;&#x2022;AUTO ORGANIZADO&#xa;&#x2022;CROSS FUNCTIONAL&#xa;&#x2022;COLABORA Y COMPARTE EL CONOCIMIENTO.&#xa;&#x2022;ESTIMADOS DE TRABAJO.&#xa;&#x2022;DE 3 A 9 MIEMBROS."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>

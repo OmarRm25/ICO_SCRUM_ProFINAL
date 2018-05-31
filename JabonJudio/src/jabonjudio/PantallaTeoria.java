@@ -28,6 +28,8 @@ public class PantallaTeoria extends javax.swing.JFrame {
     private void initComponents() {
 
         bMenu = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Teoria Básica de Ingenieria de Software");
@@ -39,21 +41,32 @@ public class PantallaTeoria extends javax.swing.JFrame {
             }
         });
 
+        jScrollPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
+        jTextPane1.setText("*El porqué de la ingeniería de software* \n\nLa sofisticación del hardware ha dejado a tras nuestra capacidad de construir software que pueda explotar el potencial del hardware.\n\nNuestra capacidad de construir nuevos programas no puede descansar a la demanda de nuevos programas.\nNuestra capacidad de mantener los programas existentes está amenazada por el mal diseño y el uso de recursos inadecuados.\n\n\nDefinición\n\n“La ingeniería de software es el establecimiento y uso de principios robustos de la ingeniería a fin de obtener económicamente software que sea fiable y que funcione eficientemente sobre máquinas reales” Fritz Bauer\nLa ingeniería de software se divide en cuatro componentes.\n\n-Compromiso con la calidad\n-Fases\n-Herramientas\n-Proceso\n\n\t\t   Fases de la ingeniería de software\n\n\n• Análisis y definición de requerimientos.\nEntender el problema y capturar los requerimientos funcionales, entidades y actividades\n• Diseño del sistema.\nProceso creativo de transformar un problema en una solución, se determinan tecnologías de programación y computo\n• Codificación del sistema.\nProceso ejecutado por el programador de acuerdo al diseño y de manera individual\n• Pruebas unitarias.\nSe examina el código y se compara con las especificaciones y el diseño (se prueban los métodos individualmente)\n• Pruebas de integración.\nSe realizan mediante incorporación de módulos, se evalúa la comunicación que tienen entre ellos y sirven para determinar qué tan eficiente es el diseño.\n• Pruebas del sistema.\nSe revisa que el sistema cumpla con las especificaciones iniciales, a veces involucra al cliente\n• Implementación del sistema.\nInstalación, capacitación y plan de implementación\n•  Mantenimiento.\nPuede ser correctivo (eliminar errores que se encuentran después de la entrega), adaptativo (En caso de que se implemente una nueva tecnología en el sistema) o perfectivo (hacerlo mas eficiente)\n• Fin del ciclo de vida (Port-mortem).\nSe cierra el proyecto, se analiza la madurez en el proceso de desarrollo, se establecen áreas de oportunidad, lecciones aprendidas, mejora continua\n\n\n-Herramientas-\nInstrumento o sistema automatizado para realizar de manera mas exacta , eficiente y productiva una tarea.\nEjemplos:\nLenguajes de programación, paradigmas de programación, IDE’s, SGBD,herramientas de modelado, de gestión de proyectos, sistemas de control de versiones, de control de cambios, API’s para pruebas unitarias, sistemas de integración, cloud computing, software de ofimática, de prototipo y maquetado, CASE, etc\n\n-Proceso-\nEl procedimiento es una receta para lograr el cometido. Establece las actividades principales. Utiliza recursos y está sujeto a una serie de restricciones.\nUn proceso es un conjunto de actividades, acciones y tareas que se ejecutan cuando va a crearse algún producto del trabajo. Una actividad busca lograr un objetivo amplio (por ejemplo, comunicación con los participantes) y se desarrolla sin importar el dominio de la aplicación, tamaño del proyecto, complejidad del esfuerzo o grado de rigor con el que se usará la ingeniería de software. Una acción (diseño de la arquitectura) es un conjunto de tareas que producen un producto importante del trabajo (por ejemplo, un modelo del diseño de la arquitectura).\nUna tarea se centra en un objetivo pequeño, pero bien definido (por ejemplo, realizar una prueba unitaria) que produce un resultado tangible. En el contexto de la ingeniería de software, un proceso no es una prescripción rígida de cómo elaborar software de cómputo. Por el contrario, es un enfoque adaptable que permite que las personas que hacen el trabajo (el equipo de software) busquen y elijan el conjunto apropiado de acciones y tareas para el trabajo. Se busca siempre entregar el software en forma oportuna y con calidad suficiente para satisfacer a quienes patrocinaron su creación y a aquellos que lo usarán.\n\n-Conceptos de calidad-\n\nLa pieza base de la ingeniería de Software\n\n-Utilidad: que satisfaga las necesidades del usuario, ya que con frecuencia no desempeñan las funciones esperadas debido principalmente a una pobre comunicación con el cliente.\n-Confiabilidad: capacidad de un programa para desempeñar una función requerida bajo ciertas condiciones durante un tiempo específico. El grado de confiabilidad deseado en un producto depende del costo de fallas.\n-Claridad: los productos de software deben ser escritos con claridad y ser fáciles de entender tanto internamente como externamente, ya que las pruebas y actividades consumen un grado del presupuesto del proyecto.\n-Económico: el producto debe ser costeable en su desarrollo, mantenimiento y uso. Un software debe operar normalmente usando menos tiempo o recursos humanos o materiales de los que requerían antes de tenerlo.\n");
+        jScrollPane1.setViewportView(jTextPane1);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(bMenu)
-                .addContainerGap(333, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(bMenu)
+                        .addGap(0, 323, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(bMenu)
-                .addContainerGap(266, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 244, Short.MAX_VALUE)
+                .addGap(16, 16, 16))
         );
 
         pack();
@@ -103,5 +116,7 @@ public class PantallaTeoria extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bMenu;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
 }

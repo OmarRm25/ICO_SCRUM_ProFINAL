@@ -30,6 +30,7 @@ public class PantallaMenu extends javax.swing.JFrame {
         bTeoria = new javax.swing.JButton();
         bScrum = new javax.swing.JButton();
         bEquipo = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Jabón Judio");
@@ -55,28 +56,36 @@ public class PantallaMenu extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setText("INGENIERIA DE SOFTWARE");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(47, 47, 47)
                 .addComponent(bTeoria)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 97, Short.MAX_VALUE)
+                .addGap(57, 57, 57)
                 .addComponent(bScrum)
-                .addGap(94, 94, 94)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
                 .addComponent(bEquipo)
-                .addContainerGap())
+                .addGap(49, 49, 49))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(132, 132, 132))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(63, 63, 63)
+                .addComponent(jLabel1)
+                .addGap(67, 67, 67)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(bTeoria)
                     .addComponent(bScrum)
                     .addComponent(bEquipo))
-                .addContainerGap(266, Short.MAX_VALUE))
+                .addContainerGap(133, Short.MAX_VALUE))
         );
 
         pack();
@@ -142,5 +151,6 @@ public class PantallaMenu extends javax.swing.JFrame {
     private javax.swing.JButton bEquipo;
     private javax.swing.JButton bScrum;
     private javax.swing.JButton bTeoria;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

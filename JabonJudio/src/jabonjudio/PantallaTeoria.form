@@ -24,10 +24,16 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="bMenu" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="333" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="bMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="323" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="1" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -36,7 +42,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="bMenu" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="266" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="244" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -50,5 +58,21 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bMenuMouseClicked"/>
       </Events>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor Por defecto"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*El porqu&#xe9; de la ingenier&#xed;a de software* &#xa;&#xa;La sofisticaci&#xf3;n del hardware ha dejado a tras nuestra capacidad de construir software que pueda explotar el potencial del hardware.&#xa;&#xa;Nuestra capacidad de construir nuevos programas no puede descansar a la demanda de nuevos programas.&#xa;Nuestra capacidad de mantener los programas existentes est&#xe1; amenazada por el mal dise&#xf1;o y el uso de recursos inadecuados.&#xa;&#xa;&#xa;Definici&#xf3;n&#xa;&#xa;&#x201c;La ingenier&#xed;a de software es el establecimiento y uso de principios robustos de la ingenier&#xed;a a fin de obtener econ&#xf3;micamente software que sea fiable y que funcione eficientemente sobre m&#xe1;quinas reales&#x201d; Fritz Bauer&#xa;La ingenier&#xed;a de software se divide en cuatro componentes.&#xa;&#xa;-Compromiso con la calidad&#xa;-Fases&#xa;-Herramientas&#xa;-Proceso&#xa;&#xa;&#x9;&#x9;   Fases de la ingenier&#xed;a de software&#xa;&#xa;&#xa;&#x2022; An&#xe1;lisis y definici&#xf3;n de requerimientos.&#xa;Entender el problema y capturar los requerimientos funcionales, entidades y actividades&#xa;&#x2022; Dise&#xf1;o del sistema.&#xa;Proceso creativo de transformar un problema en una soluci&#xf3;n, se determinan tecnolog&#xed;as de programaci&#xf3;n y computo&#xa;&#x2022; Codificaci&#xf3;n del sistema.&#xa;Proceso ejecutado por el programador de acuerdo al dise&#xf1;o y de manera individual&#xa;&#x2022; Pruebas unitarias.&#xa;Se examina el c&#xf3;digo y se compara con las especificaciones y el dise&#xf1;o (se prueban los m&#xe9;todos individualmente)&#xa;&#x2022; Pruebas de integraci&#xf3;n.&#xa;Se realizan mediante incorporaci&#xf3;n de m&#xf3;dulos, se eval&#xfa;a la comunicaci&#xf3;n que tienen entre ellos y sirven para determinar qu&#xe9; tan eficiente es el dise&#xf1;o.&#xa;&#x2022; Pruebas del sistema.&#xa;Se revisa que el sistema cumpla con las especificaciones iniciales, a veces involucra al cliente&#xa;&#x2022; Implementaci&#xf3;n del sistema.&#xa;Instalaci&#xf3;n, capacitaci&#xf3;n y plan de implementaci&#xf3;n&#xa;&#x2022;  Mantenimiento.&#xa;Puede ser correctivo (eliminar errores que se encuentran despu&#xe9;s de la entrega), adaptativo (En caso de que se implemente una nueva tecnolog&#xed;a en el sistema) o perfectivo (hacerlo mas eficiente)&#xa;&#x2022; Fin del ciclo de vida (Port-mortem).&#xa;Se cierra el proyecto, se analiza la madurez en el proceso de desarrollo, se establecen &#xe1;reas de oportunidad, lecciones aprendidas, mejora continua&#xa;&#xa;&#xa;-Herramientas-&#xa;Instrumento o sistema automatizado para realizar de manera mas exacta , eficiente y productiva una tarea.&#xa;Ejemplos:&#xa;Lenguajes de programaci&#xf3;n, paradigmas de programaci&#xf3;n, IDE&#x2019;s, SGBD,herramientas de modelado, de gesti&#xf3;n de proyectos, sistemas de control de versiones, de control de cambios, API&#x2019;s para pruebas unitarias, sistemas de integraci&#xf3;n, cloud computing, software de ofim&#xe1;tica, de prototipo y maquetado, CASE, etc&#xa;&#xa;-Proceso-&#xa;El procedimiento es una receta para lograr el cometido. Establece las actividades principales. Utiliza recursos y est&#xe1; sujeto a una serie de restricciones.&#xa;Un proceso es un conjunto de actividades, acciones y tareas que se ejecutan cuando va a crearse alg&#xfa;n producto del trabajo. Una actividad busca lograr un objetivo amplio (por ejemplo, comunicaci&#xf3;n con los participantes) y se desarrolla sin importar el dominio de la aplicaci&#xf3;n, tama&#xf1;o del proyecto, complejidad del esfuerzo o grado de rigor con el que se usar&#xe1; la ingenier&#xed;a de software. Una acci&#xf3;n (dise&#xf1;o de la arquitectura) es un conjunto de tareas que producen un producto importante del trabajo (por ejemplo, un modelo del dise&#xf1;o de la arquitectura).&#xa;Una tarea se centra en un objetivo peque&#xf1;o, pero bien definido (por ejemplo, realizar una prueba unitaria) que produce un resultado tangible. En el contexto de la ingenier&#xed;a de software, un proceso no es una prescripci&#xf3;n r&#xed;gida de c&#xf3;mo elaborar software de c&#xf3;mputo. Por el contrario, es un enfoque adaptable que permite que las personas que hacen el trabajo (el equipo de software) busquen y elijan el conjunto apropiado de acciones y tareas para el trabajo. Se busca siempre entregar el software en forma oportuna y con calidad suficiente para satisfacer a quienes patrocinaron su creaci&#xf3;n y a aquellos que lo usar&#xe1;n.&#xa;&#xa;-Conceptos de calidad-&#xa;&#xa;La pieza base de la ingenier&#xed;a de Software&#xa;&#xa;-Utilidad: que satisfaga las necesidades del usuario, ya que con frecuencia no desempe&#xf1;an las funciones esperadas debido principalmente a una pobre comunicaci&#xf3;n con el cliente.&#xa;-Confiabilidad: capacidad de un programa para desempe&#xf1;ar una funci&#xf3;n requerida bajo ciertas condiciones durante un tiempo espec&#xed;fico. El grado de confiabilidad deseado en un producto depende del costo de fallas.&#xa;-Claridad: los productos de software deben ser escritos con claridad y ser f&#xe1;ciles de entender tanto internamente como externamente, ya que las pruebas y actividades consumen un grado del presupuesto del proyecto.&#xa;-Econ&#xf3;mico: el producto debe ser costeable en su desarrollo, mantenimiento y uso. Un software debe operar normalmente usando menos tiempo o recursos humanos o materiales de los que requer&#xed;an antes de tenerlo.&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>
