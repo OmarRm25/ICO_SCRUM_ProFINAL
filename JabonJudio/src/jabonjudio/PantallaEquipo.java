@@ -34,13 +34,14 @@ public class PantallaEquipo extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Equipo");
 
-        bMenu.setText("Inicio");
+        bMenu.setText("Volver al Inicio");
         bMenu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bMenuMouseClicked(evt);
             }
         });
 
+        jTextPane1.setText("BELTRAN PEÑAFLOR JAVIER- PRODUCT OWNER\njavier.darko42@gmail.com\n\n\nREMENTERIA MORALES HECTOR OMAR- SCRUM MASTER/SCRUM TEAM \norastaroth67@gmail.com\n\n\nGONZALEZ BUSTAMANTE AUREO BENJAMIN- SCRUM TEAM \naureogonz@hotmail.com\n\n\nFRIAS CHAGOYA VICTOR MANUEL- SCRUM TEAM \nvictorf9523@gmail.com");
         jScrollPane1.setViewportView(jTextPane1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -50,10 +51,10 @@ public class PantallaEquipo extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 491, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(bMenu)
-                        .addGap(0, 323, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -62,7 +63,7 @@ public class PantallaEquipo extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(bMenu)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

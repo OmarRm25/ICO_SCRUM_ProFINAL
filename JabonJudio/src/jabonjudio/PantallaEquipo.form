@@ -27,10 +27,10 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="491" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="bMenu" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="323" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -43,7 +43,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="bMenu" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="249" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" pref="393" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -52,7 +52,7 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="bMenu">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Inicio"/>
+        <Property name="text" type="java.lang.String" value="Volver al Inicio"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bMenuMouseClicked"/>
@@ -63,6 +63,9 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
         <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BELTRAN PE&#xd1;AFLOR JAVIER- PRODUCT OWNER&#xa;javier.darko42@gmail.com&#xa;&#xa;&#xa;REMENTERIA MORALES HECTOR OMAR- SCRUM MASTER/SCRUM TEAM &#xa;orastaroth67@gmail.com&#xa;&#xa;&#xa;GONZALEZ BUSTAMANTE AUREO BENJAMIN- SCRUM TEAM &#xa;aureogonz@hotmail.com&#xa;&#xa;&#xa;FRIAS CHAGOYA VICTOR MANUEL- SCRUM TEAM &#xa;victorf9523@gmail.com"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
