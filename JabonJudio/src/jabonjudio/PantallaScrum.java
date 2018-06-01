@@ -31,6 +31,7 @@ public class PantallaScrum extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Scrum");
@@ -53,7 +54,9 @@ public class PantallaScrum extends javax.swing.JFrame {
         jTextPane1.setText("¿QUÉ ES SCRUM?\n          *Metodología ágil*\nFrente a los pasos del tradicional método en cascada, el desarrollo ágil de software se basa en seis pasos comunes dentro del ciclo de vida del software: planificación, análisis de requisitos, diseño, codificación, test y documentación. En cada interacción, el equipo de desarrollo no entrega todo el programa, sino que se van añadiendo pequeños elementos totalmente probados, sin errores, con el fin de que la solución final esté completamente operativa desde el minuto uno. En los métodos de desarrollo ágil de software, la comunicación entre todos los miembros del equipo es clave, ya que se busca eliminar las trabas habituales de reuniones, validaciones y revisiones formales por encuentros más informales y en fases tempranas e intermedias del proceso, no sólo en la última etapa del trabajo.\n\nManifiesto por el desarrollo ágil\nEstamos buscando formas mejores de desarrollar software tanto por nuestra propia experiencia como ayudando a terceros. A través de este trabajo aprendimos a valorar:\n\n• Los individuos e interacciones, por encima de los procesos y las herramientas.\n• Software en funcionamiento, frente a la documentación exhaustiva.\n• La colaboración con el cliente sobre la negociación contractual.\n• Respuesta al cambio, mejor que el seguimiento de un plan.\nEsto es, aunque valoremos los de la derecha, valoramos más a los de la izquierda.\n\n*Scrum*\nEs una metodología de desarrollo ágil, centrado en el desarrollo iterativo e incremental, en periodos cortos del tiempo y en colaboración con el cliente.\n\n-Roles \n-Product owner\n-Scrum master\n-Scrum team\n\nPRODUCT OWNER\n•VISIÓN.-ESTABLECE EL OBJETIVO A TRAVÉS DE UN DESEO A CUMPLIR.\n•REPRESENTA A LOS PATROCINADORES (STAKEHOLDERS).\n•DESCUBRE Y APRUEBA EL PBI Y CONOCE EL VALOR DE NEGOCIO DE CADA ITEM.\n•TOMA EN CUENTA EL RETORNO DE INVERSIÓN.\n•TRIUNFA O FALLA RÁPIDO.\n\nSCRUM MASTER\n•COACH (FACILITADOR)\n•ESTABLECE LOS CALENDARIOS Y AGENDAS.\n•GUÍA AL EQUIPO A LA IDENTIFICACIÓN DE ENTREGABLES.\n•FACILITA LA COMUNICACIÓN CON EL PRODUCTOWNER.\n•RESPONSABLE DE CORREGIR PROBLEMAS O IMPEDIMENTOS.\n\nSCRUM TEAM (O SÓLO TEAM)\n•AUTO ORGANIZADO\n•CROSS FUNCTIONAL\n•COLABORA Y COMPARTE EL CONOCIMIENTO.\n•ESTIMADOS DE TRABAJO.\n•DE 3 A 9 MIEMBROS.");
         jScrollPane1.setViewportView(jTextPane1);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\darke\\Desktop\\ICO_SCRUM_ProFINALJabonJudio\\Imagenes\\SCRUM_1.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/SCRUM_1_editado.jpg"))); // NOI18N
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/Srumpt.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -65,7 +68,9 @@ public class PantallaScrum extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(bMenu)
@@ -83,8 +88,10 @@ public class PantallaScrum extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addGap(17, 17, 17)
-                        .addComponent(jLabel1)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(33, 33, 33))))
         );
 
         pack();
@@ -139,6 +146,7 @@ public class PantallaScrum extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bMenu;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
