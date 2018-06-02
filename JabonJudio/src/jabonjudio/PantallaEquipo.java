@@ -65,7 +65,7 @@ public class PantallaEquipo extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/Tacos_editado.jpg"))); // NOI18N
 
-        jTextPane2.setText("BELTRAN PEÑAFLOR JAVIER- PRODUCT OWNER javier.darko42@gmail.com");
+        jTextPane2.setText("BELTRAN PEÑAFLOR JAVIER- PRODUCT OWNER javier.darko42@gmail.com\nCUENTA: 313299030\nSEMESTRE: 6°\nPASATIEMPO: Box, Skateboarding e ir por tacos :v");
         jScrollPane2.setViewportView(jTextPane2);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -85,8 +85,8 @@ public class PantallaEquipo extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(220, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(213, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
@@ -99,7 +99,7 @@ public class PantallaEquipo extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/Omi_editado.jpg"))); // NOI18N
 
-        jTextPane3.setText("REMENTERIA MORALES HECTOR OMAR- SCRUM MASTER/SCRUM TEAM  orastaroth67@gmail.com");
+        jTextPane3.setText("REMENTERIA MORALES HECTOR OMAR- SCRUM MASTER/SCRUM TEAM  orastaroth67@gmail.com\nCUENTA: 416007154\nSEMESTRE: 6°\nPASATIEMPO: motociclismo, hornear judíos, ser prieto en aprietos");
         jScrollPane3.setViewportView(jTextPane3);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -133,7 +133,7 @@ public class PantallaEquipo extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/Judio_editado.jpg"))); // NOI18N
 
-        jTextPane4.setText("GONZALEZ BUSTAMANTE AUREO BENJAMIN- SCRUM TEAM  aureogonz@hotmail.com");
+        jTextPane4.setText("GONZALEZ BUSTAMANTE AUREO BENJAMIN- SCRUM TEAM  aureogonz@hotmail.com\nCUENTA: 3130621440\nSEMESTRE: 6°\nPasatiempos: tocar el bajo y ver los simpsons, jugar clash royale y speed runners, ser jabón, respirar, comer, tomar agua, MK Wii");
         jScrollPane4.setViewportView(jTextPane4);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -167,7 +167,7 @@ public class PantallaEquipo extends javax.swing.JFrame {
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jabonjudio/imagenes/Yisus_editado.jpg"))); // NOI18N
 
-        jTextPane5.setText("FRIAS CHAGOYA VICTOR MANUEL- SCRUM TEAM  victorf9523@gmail.com");
+        jTextPane5.setText("FRIAS CHAGOYA VICTOR MANUEL- SCRUM TEAM  victorf9523@gmail.com\nCUENTA: 312192378\nSEMESTRE: 6°\nPasatiempos: Ser El hijo de Dios, convertir el peñafiel en sangría, combatir las güestes de satán, resucitar cada tercer día, escuchar plegarias jugar pokemon, borforce, overwatch, tocar guitarra, tomar agua.");
         jScrollPane5.setViewportView(jTextPane5);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
